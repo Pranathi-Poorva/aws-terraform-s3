@@ -42,7 +42,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "demo_bucket" {
-  bucket = "poorva-terraform--demo"
+  bucket = "poorva-terraform-demo"
 
   tags = {
     Name        = "Terraform S3 Demo"
